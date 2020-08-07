@@ -1,0 +1,17 @@
+# default profile, 与环境无关
+# redis集群的节点信息
+redis.cluster.nodes=10.150.59.132:31038,10.150.59.131:31038
+# redis连接池的配置
+redis.cluster.instancePassword=eadp_cacheApply#brtJP0@hhafQ6W
+# redis database配置
+redis.cluster.database=5
+# redis 最大连接数
+redis.cluster.maxTotal=10
+# redis 最大空闲数
+redis.cluster.maxIdle=5
+# redis 保持最小空闲连接数
+redis.cluster.minIdle=3
+# redis 最大等待时间
+redis.cluster.maxWaitMillis=3000
+
+
